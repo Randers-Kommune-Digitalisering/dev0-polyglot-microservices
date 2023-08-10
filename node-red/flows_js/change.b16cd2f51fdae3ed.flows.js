@@ -2,7 +2,7 @@ const Node = {
   "id": "b16cd2f51fdae3ed",
   "type": "change",
   "z": "971a7ae6df987a48",
-  "name": "",
+  "name": "Move data",
   "rules": [
     {
       "t": "set",
@@ -17,15 +17,14 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 710,
-  "y": 420,
+  "x": 890,
+  "y": 260,
   "wires": [
     [
-      "644d32cc48a613f7",
-      "c632faf641d0a152"
+      "644d32cc48a613f7"
     ]
   ],
-  "_order": 90
+  "_order": 89
 }
 
 module.exports = Node;

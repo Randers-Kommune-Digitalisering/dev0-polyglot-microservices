@@ -4,8 +4,8 @@ const Node = {
   "z": "971a7ae6df987a48",
   "name": "◄ An internal python microservice listens to the data topic",
   "info": "",
-  "x": 930,
-  "y": 540,
+  "x": 1270,
+  "y": 360,
   "wires": [],
   "_order": 78
 }

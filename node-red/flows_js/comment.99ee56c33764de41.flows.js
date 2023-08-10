@@ -4,8 +4,8 @@ const Node = {
   "z": "971a7ae6df987a48",
   "name": "Publish data from API to internal redis queue",
   "info": "",
-  "x": 890,
-  "y": 500,
+  "x": 990,
+  "y": 320,
   "wires": [],
   "_order": 76
 }
