@@ -42,4 +42,5 @@ while True:
     if message['type'] != 'message':
         continue
     # Transform the data and Return the transformed data on the "results" topic
+    print(f"message['data'] = {message['data']}")
     r.publish('results', json.dumps(transform(message['data'])))
