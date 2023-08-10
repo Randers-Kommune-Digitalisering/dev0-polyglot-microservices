@@ -10,6 +10,13 @@ const Node = {
       "pt": "msg",
       "to": "antal-krydsende-cyklister-over-randers-fjord",
       "tot": "str"
+    },
+    {
+      "t": "set",
+      "p": "max_file_age_days",
+      "pt": "msg",
+      "to": "400",
+      "tot": "num"
     }
   ],
   "action": "",
@@ -18,7 +25,7 @@ const Node = {
   "to": "",
   "reg": false,
   "x": 330,
-  "y": 220,
+  "y": 340,
   "wires": [
     [
       "a00f7e1112c294b9"

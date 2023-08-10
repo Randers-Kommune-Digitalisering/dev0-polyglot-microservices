@@ -7,8 +7,8 @@ const Node = {
   "name": "data",
   "topic": "data",
   "obj": true,
-  "x": 630,
-  "y": 420,
+  "x": 650,
+  "y": 540,
   "wires": [],
   "_order": 73
 }

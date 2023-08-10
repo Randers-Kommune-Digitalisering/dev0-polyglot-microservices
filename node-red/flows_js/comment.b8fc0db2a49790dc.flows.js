@@ -4,8 +4,8 @@ const Node = {
   "z": "971a7ae6df987a48",
   "name": "Microservice returns an alfabetical sorted object on the results topic ►",
   "info": "",
-  "x": 310,
-  "y": 500,
+  "x": 330,
+  "y": 620,
   "wires": [],
   "_order": 77
 }

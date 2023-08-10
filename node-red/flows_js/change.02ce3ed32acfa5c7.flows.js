@@ -14,6 +14,13 @@ const Node = {
     },
     {
       "t": "set",
+      "p": "url",
+      "pt": "flow",
+      "to": "url",
+      "tot": "msg"
+    },
+    {
+      "t": "set",
       "p": "method",
       "pt": "msg",
       "to": "POST",
@@ -30,21 +37,7 @@ const Node = {
       "t": "set",
       "p": "payload.id",
       "pt": "msg",
-      "to": "dataset_opendata",
-      "tot": "msg"
-    },
-    {
-      "t": "set",
-      "p": "dataset",
-      "pt": "flow",
       "to": "dataset",
-      "tot": "msg"
-    },
-    {
-      "t": "set",
-      "p": "url",
-      "pt": "flow",
-      "to": "url",
       "tot": "msg"
     }
   ],

@@ -61,7 +61,8 @@ const Node = {
   "outputLabels": [
     "metrics",
     "retry",
-    "data"
+    "data",
+    ""
   ],
   "icon": "node-red/inject.svg",
   "status": {
