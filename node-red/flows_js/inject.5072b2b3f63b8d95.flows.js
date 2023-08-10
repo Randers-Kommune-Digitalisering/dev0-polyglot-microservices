@@ -13,9 +13,9 @@ const Node = {
   "once": false,
   "onceDelay": 0.1,
   "topic": "",
-  "payload": "{\"test\":\"test\"}",
+  "payload": "[{\"test\":\"data1\"},{\"test\":\"data2\"}]",
   "payloadType": "json",
-  "x": 370,
+  "x": 350,
   "y": 540,
   "wires": [
     [
