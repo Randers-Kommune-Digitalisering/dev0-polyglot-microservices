@@ -3,7 +3,8 @@ import redis
 import time
 
 def transform(data):
-    # Return the input data unchanged
+    # Parse the JSON data
+    data = json.loads(data)
     return data
 
 # Connect to the Redis server using the correct hostname
@@ -26,6 +27,5 @@ while True:
     # Ignore non-data messages
     if message['type'] != 'message':
         continue
-    
     # Transform the data and Return the transformed data on the "results" topic
     r.publish('results', json.dumps(transform(message['data'])))
