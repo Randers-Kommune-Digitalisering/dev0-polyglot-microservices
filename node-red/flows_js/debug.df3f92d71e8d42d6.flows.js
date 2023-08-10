@@ -1,19 +1,20 @@
 const Node = {
-  "id": "88121ba3f1287d44",
+  "id": "df3f92d71e8d42d6",
   "type": "debug",
   "z": "971a7ae6df987a48",
-  "name": "debug 2",
+  "name": "metrics",
   "active": true,
   "tosidebar": true,
-  "console": false,
+  "console": true,
   "tostatus": false,
-  "complete": "false",
+  "complete": "payload.metrics.labels",
+  "targetType": "msg",
   "statusVal": "",
   "statusType": "auto",
-  "x": 940,
-  "y": 500,
+  "x": 860,
+  "y": 60,
   "wires": [],
-  "_order": 75
+  "_order": 84
 }
 
 module.exports = Node;

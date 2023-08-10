@@ -4,10 +4,10 @@ const Node = {
   "z": "971a7ae6df987a48",
   "name": "Get some user data from testing API",
   "info": "",
-  "x": 360,
-  "y": 60,
+  "x": 380,
+  "y": 380,
   "wires": [],
-  "_order": 7
+  "_order": 78
 }
 
 Node.info = `

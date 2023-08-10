@@ -4,10 +4,10 @@ const Node = {
   "z": "971a7ae6df987a48",
   "name": "Publish data from API to internal redis queue",
   "info": "",
-  "x": 730,
-  "y": 60,
+  "x": 750,
+  "y": 380,
   "wires": [],
-  "_order": 8
+  "_order": 79
 }
 
 module.exports = Node;
