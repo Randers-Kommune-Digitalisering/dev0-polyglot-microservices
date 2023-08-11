@@ -5,9 +5,9 @@ const Node = {
   "name": "Konvertér til JSON",
   "info": "",
   "x": 810,
-  "y": 60,
+  "y": 100,
   "wires": [],
-  "_order": 69
+  "_order": 67
 }
 
 module.exports = Node;

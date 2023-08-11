@@ -7,7 +7,7 @@ const Node = {
   "in": [
     {
       "x": 60,
-      "y": 100,
+      "y": 140,
       "wires": [
         {
           "id": "3576edeecbbb87af"
@@ -18,7 +18,7 @@ const Node = {
   "out": [
     {
       "x": 1110,
-      "y": 100,
+      "y": 140,
       "wires": [
         {
           "id": "076ff355c5b536f3",
@@ -43,7 +43,7 @@ const Node = {
   "icon": "node-red/db.svg",
   "status": {
     "x": 1060,
-    "y": 260,
+    "y": 300,
     "wires": [
       {
         "id": "076ff355c5b536f3",
