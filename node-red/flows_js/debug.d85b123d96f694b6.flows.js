@@ -7,14 +7,14 @@ const Node = {
   "tosidebar": true,
   "console": true,
   "tostatus": false,
-  "complete": "{\t   $flowContext(\"tablename\") : \"http request error\",\t   \"error\": payload\t}",
+  "complete": "{\t   dataset : \"data parse error\",\t   \"data\": payload\t}",
   "targetType": "jsonata",
   "statusVal": "",
   "statusType": "auto",
-  "x": 980,
+  "x": 1200,
   "y": 180,
   "wires": [],
-  "_order": 26
+  "_order": 32
 }
 
 module.exports = Node;

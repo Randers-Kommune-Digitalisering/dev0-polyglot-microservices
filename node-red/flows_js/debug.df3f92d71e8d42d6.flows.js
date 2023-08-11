@@ -7,14 +7,14 @@ const Node = {
   "tosidebar": true,
   "console": true,
   "tostatus": false,
-  "complete": "payload.metrics.labels",
+  "complete": "metrics.labels",
   "targetType": "msg",
   "statusVal": "",
   "statusType": "auto",
   "x": 880,
   "y": 60,
   "wires": [],
-  "_order": 80
+  "_order": 65
 }
 
 module.exports = Node;
