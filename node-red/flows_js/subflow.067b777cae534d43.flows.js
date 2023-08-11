@@ -1,7 +1,7 @@
 const Node = {
   "id": "067b777cae534d43",
   "type": "subflow",
-  "name": "OpenData.dk - Randers org. - Connector",
+  "name": "OpenData.dk - Randers org. - Connector (OLD)",
   "info": "",
   "category": "",
   "in": [
@@ -61,8 +61,7 @@ const Node = {
   "outputLabels": [
     "metrics",
     "retry",
-    "data",
-    ""
+    "data"
   ],
   "icon": "node-red/inject.svg",
   "status": {

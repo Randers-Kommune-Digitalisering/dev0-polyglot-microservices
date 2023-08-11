@@ -2,7 +2,7 @@ const Node = {
   "id": "651ff4df562cb8a8",
   "type": "change",
   "z": "971a7ae6df987a48",
-  "name": "Opsætning af dataset \\n antal-krydsende-cyklister-over-randers-fjord",
+  "name": "Opsætning af OpenData dataset \\n antal-krydsende-cyklister-over-randers-fjord",
   "rules": [
     {
       "t": "set",
@@ -24,14 +24,14 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 330,
+  "x": 250,
   "y": 160,
   "wires": [
     [
-      "a00f7e1112c294b9"
+      "38fdf4a6a295ebdc"
     ]
   ],
-  "_order": 81
+  "_order": 126
 }
 
 module.exports = Node;

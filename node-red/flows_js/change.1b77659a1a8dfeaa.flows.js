@@ -1,15 +1,15 @@
 const Node = {
-  "id": "b16cd2f51fdae3ed",
+  "id": "1b77659a1a8dfeaa",
   "type": "change",
-  "z": "971a7ae6df987a48",
-  "name": "Move data",
+  "z": "848072497d00f862",
+  "name": "data = null",
   "rules": [
     {
       "t": "set",
-      "p": "payload",
+      "p": "data",
       "pt": "msg",
-      "to": "data",
-      "tot": "msg"
+      "to": "null",
+      "tot": "jsonata"
     }
   ],
   "action": "",
@@ -17,14 +17,12 @@ const Node = {
   "from": "",
   "to": "",
   "reg": false,
-  "x": 890,
-  "y": 260,
+  "x": 930,
+  "y": 580,
   "wires": [
-    [
-      "644d32cc48a613f7"
-    ]
+    []
   ],
-  "_order": 89
+  "_order": 112
 }
 
 module.exports = Node;
