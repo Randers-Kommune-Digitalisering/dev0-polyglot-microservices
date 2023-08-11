@@ -5,7 +5,7 @@ const Node = {
   "name": "Microservice returns an alfabetical sorted object on the results topic ►",
   "info": "",
   "x": 310,
-  "y": 440,
+  "y": 480,
   "wires": [],
   "_order": 74
 }
