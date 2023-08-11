@@ -4,10 +4,10 @@ const Node = {
   "z": "971a7ae6df987a48",
   "name": "◄ An internal python microservice listens to the data topic",
   "info": "",
-  "x": 890,
-  "y": 100,
+  "x": 1270,
+  "y": 360,
   "wires": [],
-  "_order": 10
+  "_order": 64
 }
 
 module.exports = Node;

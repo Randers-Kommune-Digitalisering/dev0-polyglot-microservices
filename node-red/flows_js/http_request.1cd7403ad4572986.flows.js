@@ -1,27 +1,27 @@
 const Node = {
-  "id": "455638d57c526f62",
+  "id": "1cd7403ad4572986",
   "type": "http request",
-  "z": "971a7ae6df987a48",
-  "name": "",
-  "method": "GET",
-  "ret": "obj",
+  "z": "1e5470dae1365ec6",
+  "name": "Send forespørgsel",
+  "method": "use",
+  "ret": "txt",
   "paytoqs": "ignore",
-  "url": "https://jsonplaceholder.typicode.com/users",
-  "tls": "",
+  "url": "",
+  "tls": "5c13e4731fd7f4cf",
   "persist": false,
   "proxy": "",
   "insecureHTTPParser": false,
   "authType": "",
   "senderr": false,
   "headers": [],
-  "x": 290,
+  "x": 230,
   "y": 100,
   "wires": [
     [
-      "644d32cc48a613f7"
+      "74706634e295896e"
     ]
   ],
-  "_order": 6
+  "_order": 30
 }
 
 module.exports = Node;

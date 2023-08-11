@@ -5,10 +5,22 @@ import time
 def transform(data):
     # Parse the JSON data
     data = json.loads(data)
-    # Sort the data alphabetically by the 'name' property
-    sorted_data = sorted(data, key=lambda x: x['name'])
+
+    # Strip all "(" and ")" characters from the keys in all the objects
+    new_data = []
+    for item in data:
+        new_item = {}
+        for key, value in item.items():
+            new_key = key.replace('(', '').replace(')', '')
+            new_item[new_key] = value
+        new_data.append(new_item)
+    
     # Return the transformed data
-    return sorted_data
+    return new_data
+
+
+
+    return data
 
 # Connect to the Redis server using the correct hostname
 r = redis.Redis(host='redis_microservice')
