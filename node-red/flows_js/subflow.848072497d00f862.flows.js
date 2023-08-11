@@ -65,8 +65,8 @@ const Node = {
   ],
   "icon": "node-red/inject.svg",
   "status": {
-    "x": 1320,
-    "y": 1380,
+    "x": 1360,
+    "y": 100,
     "wires": [
       {
         "id": "5f972c010995566f",
@@ -74,7 +74,7 @@ const Node = {
       }
     ]
   },
-  "_order": 4
+  "_order": 2
 }
 
 module.exports = Node;
