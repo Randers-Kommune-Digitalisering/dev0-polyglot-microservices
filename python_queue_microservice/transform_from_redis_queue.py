@@ -6,20 +6,13 @@ def transform(data):
     # Parse the JSON data
     data = json.loads(data)
 
-    # Strip all "(" and ")" characters from the keys in all the objects
-    new_data = []
-    for item in data:
-        new_item = {}
-        for key, value in item.items():
-            new_key = key.replace('(', '').replace(')', '')
-            new_item[new_key] = value
-        new_data.append(new_item)
+    # Perform desired data transformations below
+    
+
+
+
     
     # Return the transformed data
-    return new_data
-
-
-
     return data
 
 # Connect to the Redis server using the correct hostname
