@@ -6,5 +6,6 @@
 
 ![](https://avatars.githubusercontent.com/u/1525981?s=36&v=4)  Python as the data transform language
 
+###### Optional R and C# basic microservice templated included
 
 For more information on how to use this stack, please see the [HOW-TO](/docs/HOW-TO.md) file.
