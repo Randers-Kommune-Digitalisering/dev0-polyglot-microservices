@@ -7,7 +7,6 @@ const Node = {
     "label": true
   },
   "nodes": [
-    "2f78992cda33fee8",
     "adf5448c73b352bf",
     "a65748033d996f39",
     "689271986ecb4370",
@@ -18,7 +17,7 @@ const Node = {
   "y": 99,
   "w": 612,
   "h": 122,
-  "_order": 3
+  "_order": 4
 }
 
 module.exports = Node;

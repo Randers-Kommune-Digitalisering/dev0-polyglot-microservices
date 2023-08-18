@@ -8,11 +8,17 @@ services:
     ports:
       - "1880:1880"
     environment:
+      DB_USER: root
+      DB_PASS: pass
+      DB_HOST: db
+      DB_PORT: 3306
+      DB_DATABASE: demo
       TZ: "Europe/Copenhagen"
       FLOWS: "/data/flows.json"
 
     depends_on:
       - redis_microservice  
+      - db
       
     volumes:
       - "./node-red/:/data" 
@@ -30,6 +36,25 @@ services:
       - node_red
     depends_on:
       - redis_microservice
+
+  db:
+    image: mariadb:10.6.11
+    restart: always
+    environment:
+      MARIADB_ROOT_PASSWORD: pass
+      MARIADB_DATABASE: demo
+      TZ: "Europe/Copenhagen"
+    command: [
+        '--wait_timeout=60'
+    ]
+    healthcheck:
+      test: mysqladmin ping -h 127.0.0.1 -u root --password=pass
+      start_period: 5s
+      interval: 5s
+      timeout: 5s
+      retries: 55
+    networks:
+      - node_red
 
 networks: 
   node_red:
