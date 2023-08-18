@@ -2,12 +2,13 @@ const Node = {
   "id": "f4ca5f9394e25dcf",
   "type": "comment",
   "z": "971a7ae6df987a48",
-  "name": "◄ An internal python microservice listens to the data topic",
+  "g": "bb83877d66661c10",
+  "name": "▲ python microservice \\n listens to the data topic",
   "info": "",
-  "x": 1270,
-  "y": 360,
+  "x": 1021,
+  "y": 400,
   "wires": [],
-  "_order": 75
+  "_order": 114
 }
 
 module.exports = Node;
